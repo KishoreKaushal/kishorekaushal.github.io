@@ -35,8 +35,7 @@ Here are some ideas to get you started:
 - 👯 I always looking to collaborate on research topics in Machine Learning & AI.
 
 - 💬 Ask me about anything.
-- 📫 How to reach me: kshr4kshl@gmail.com
-
+- 📫 Rech me at: <a href="kshr4kshl@gmail.com">kshr4kshl@gmail.com</a>
 
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kishorekaushal&label=Profile%20views&color=0e75b6&style=flat" alt="kishorekaushal" /> </p>
@@ -50,7 +49,6 @@ Here are some ideas to get you started:
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
-
 
 
 <p align="left">
