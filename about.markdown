@@ -32,7 +32,7 @@ Here are some ideas to get you started:
 
 - 👨‍🎓 I graduated from Indian Institute of Technology Palakkad in year 2020 (the COVID year) with bachelor's degree in Computer Science & Engineering.
 
-- 👯 I always looking to collaborate on research topics in Machine Learning & AI.
+- 👯 Always looking for collaboration on research and development.
 
 - 💬 Ask me about anything.
 - 📫 Reach me at: <a href="kshr4kshl@gmail.com">kshr4kshl@gmail.com</a>
