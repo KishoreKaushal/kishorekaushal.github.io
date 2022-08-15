@@ -56,7 +56,7 @@ Unfortunately, the greedy approach often performs poor. It always **exploits** c
 
 Therefore, with probability $\epsilon$ the agents selects an action randomly (exploration) and with probability $1-\epsilon$ agent performs a **greedy choice**.
 
-$$ 
+$$
  A_t \doteq \begin{cases}
        X & \text{w.p. $\epsilon$}  \\
        \argmax_a Q_t(a) & \text{w.p. $1-\epsilon$}
@@ -93,3 +93,57 @@ NewEstimate \leftarrow OldEstimate + StepSize \left[Target - OldEstimate \right]
 $$
 
 where $Target - OldEstimate$ is the error in previous estimate.
+
+## Non-stationary Reward Distribution
+
+In a non-stationary action-reward distribution setting more importance should be given to recent rewards for the estimation of $Q_t(a)$. A simple way to achieve that is to use constant step-size $0\lt\alpha\lt1$.
+
+$$
+\begin{equation*}
+    Q_{n+1} \doteq Q_n + \alpha \left[R_n - Q_n \right]
+\end{equation*}
+$$
+
+This is called *exponential recency-weight average*.
+
+The step-size can be varied for interesting results for eg., in previous problem it was $\alpha_n(a) = \frac{1}{N(a)} = \frac{1}{n}$
+
+From stochastic approximation theory convergence with probability of 1 is assured if the following conditions are met:
+
+$$
+\begin{align*}
+    \sum_{n=1}^{\infty} \alpha_n(a) = \infty \\
+    \sum_{n=1}^{\infty} \alpha_n^{2}(a) \lt \infty
+\end{align*}
+$$
+
+The first condition is to ensure that the steps are large enough to eventually overcome initial condition or random fluctuations. The second condition ensures that eventually steps become small enough to assure convergence.
+
+For a non-stationary problem a non-converging $\alpha$ is desirable, such that the estimates never converge and continue to vary in response to recent rewards.
+
+With a constant $0\lt\alpha\lt1$ the estimates desn't converge, whereas with $\alpha_n(a) = \frac{1}{n}$ the estimate converges.
+
+## Upper Confidence Bound Action Selection
+The $\epsilon-$greedy method:
+
+$$
+\begin{align*}
+ A_t \doteq \begin{cases}
+       X & \text{w.p. $\epsilon$}  \\
+       \argmax_a Q_t(a) & \text{w.p. $1-\epsilon$}
+     \end{cases} \\
+X \sim \text {uniform distribution over action set}
+\end{align*}
+$$
+
+Can we combine exploration and exploitation through a single quantity? In addition to that, in our present exploration method we are randomly selecting an action assuming a uniform distribution, which can be improved by taking in account the realtive potential of action actually being optimal.
+
+$$
+\begin{align*}
+    A_t \doteq \argmax_a \left[Q_t(a) + c \sqrt{\frac{\ln t}{N_t(a)}} \right]
+\end{align*}
+$$
+
+where $N_t(a)$ is number of times action $a$ has been selected prior to time step $t$.
+
+The second term (square root term) is uncertainity (or variance) in estimate of Q_t(a). It make sures that all actions are first explored atleast once before a greedy choice is made.
