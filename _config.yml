@@ -34,8 +34,8 @@ linkedin_username: kishorekshl
 
 # Build settings
 markdown: kramdown
-kramdown:
-  math_engine: katex
+# kramdown:
+#   math_engine: katex
 
 theme: minima
 
