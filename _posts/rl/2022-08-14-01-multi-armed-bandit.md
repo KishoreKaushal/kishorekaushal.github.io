@@ -124,6 +124,7 @@ For a non-stationary problem a non-converging $\alpha$ is desirable, such that t
 With a constant $0\lt\alpha\lt1$ the estimates desn't converge, whereas with $\alpha_n(a) = \frac{1}{n}$ the estimate converges.
 
 ## Upper Confidence Bound Action Selection
+
 The $\epsilon-$greedy method:
 
 $$
