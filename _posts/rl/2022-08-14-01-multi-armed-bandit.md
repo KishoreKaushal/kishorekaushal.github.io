@@ -147,4 +147,4 @@ $$
 
 where $N_t(a)$ is number of times action $a$ has been selected prior to time step $t$.
 
-The second term (square root term) is uncertainity (or variance) in estimate of Q_t(a). It make sures that all actions are first explored atleast once before a greedy choice is made.
+The second term (square root term) is uncertainity (or variance) in estimate of $Q_t(a)$. It make sures that all actions are first explored atleast once before a greedy choice is made.
