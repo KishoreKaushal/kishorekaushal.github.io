@@ -23,10 +23,11 @@ Here are some ideas to get you started:
 
 
 <h1 align="center">Hi 👋, I'm Kaushal Kishore</h1>
-<h3 align="center">A passionate Computer Engineer from India (🇮🇳) </h3>
+<h3 align="center">A passionate Machine Learning Engineer from India (🇮🇳) </h3>
 
-- 👨‍💻 I currently work in a AI research team at GE Healthcare. 
-- 💼 My daily job includes research, development and implementation of AI based business solutions. 
+- 👨‍💻 I currently work as Machine Learning Engineer in Illustrator team at Adobe.
+- 🧙‍♂️ Previously worked at GE Healthcare as an Edison Engineer.
+- 💼 My daily job includes research, development and implementation of AI based business solutions.
 
 - 🌿 I'm a vegetarian.
 
