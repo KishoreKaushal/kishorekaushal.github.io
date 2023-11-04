@@ -25,11 +25,12 @@ Here are some ideas to get you started:
 <h1 align="center">Hi 👋, I'm Kaushal Kishore</h1>
 <h3 align="center">A passionate Machine Learning Engineer from India (🇮🇳) </h3>
 
+- 👷‍♂️ 1/2 of ReType Match Font Model in Adobe Illustrator.
 - 👨‍💻 I currently work as Machine Learning Engineer in Illustrator team at Adobe.
 - 🧙‍♂️ Previously worked at GE Healthcare as an Edison Engineer.
 - 💼 My daily job includes research, development and implementation of AI based business solutions.
 
-- 🌿 I'm a vegetarian.
+- 🏋️ Strength is the only thing that matters.
 
 - 👨‍🎓 I graduated from Indian Institute of Technology Palakkad in year 2020 (the COVID year) with bachelor's degree in Computer Science & Engineering.
 
